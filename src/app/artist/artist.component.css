@@ -1,0 +1,46 @@
+.artist-thumb{
+	width: 200px;
+	height: auto;
+	border-radius: 12px;
+	float: left;
+	margin-right: 18px;
+
+}
+#artist-info{
+	min-height: 200px;
+	border-bottom: 1px solid #2e2e2e;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.album-block {
+	border: 1px solid #333;
+	background: #121212;
+	overflow:auto;
+    min-height: 400px;
+}
+a{
+	color: #116DDE;
+	text-decoration: underline;
+}
+.navbar{
+		margin-bottom: 0px;
+	}
+@media (max-width: 420px) {
+	.navbar{
+		margin-bottom: 0px;
+	}
+	.album-block {
+	    min-height: 330px;
+	}
+	.artist-thumb{
+		width: 150px;
+	}
+	#artist-info{
+		min-height: 150px;
+	}
+
+}
+
+.album-row {
+	overflow: auto;
+}
